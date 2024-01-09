@@ -1,5 +1,3 @@
-/* PdfCompare.css */
-
 body {
   font-family: 'Arial', sans-serif;
   background-color: #3498db;
@@ -42,7 +40,6 @@ h1 {
   display: inline-block;
 }
 
-/* Add a bit of margin to create separation */
 input[type="file"] {
   display: none;
 }
@@ -58,7 +55,6 @@ label {
   display: inline-block;
 }
 
-/* Add a bit of margin to create separation */
 input[type="file"] + label {
   margin-left: 10px;
 }

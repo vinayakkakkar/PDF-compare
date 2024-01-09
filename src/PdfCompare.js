@@ -1,8 +1,6 @@
-// PdfCompare.js
-
 import React, { useState } from 'react';
 import axios from 'axios';
-import './PdfCompare.css'; // Import the CSS file
+import './PdfCompare.css'; 
 
 function PdfCompare() {
   const [file1, setFile1] = useState(null);
@@ -24,7 +22,7 @@ function PdfCompare() {
 
     try {
       const response = await axios.post('http://localhost:3001/compare-pdfs', formData);
-      console.log('Response:', response.data); // Log the response to the console
+      console.log('Response:', response.data); 
       setResult(response.data.result);
     } catch (error) {
       console.error('Error:', error.message);
